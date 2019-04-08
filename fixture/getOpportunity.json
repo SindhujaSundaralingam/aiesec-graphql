@@ -1,0 +1,265 @@
+{
+    "id": 6125,
+    "title": "Test Opportunity",
+    "lat": "13.0826802",
+    "lng": "80.2707184",
+    "url": "https://gis.aiesec.org/v2/opportunities/6125",
+    "location": "Chennai, India",
+    "status": "draft",
+    "description": "zcczxxccxz",
+    "is_gep": false,
+    "current_status": "draft",
+    "duration_min": null,
+    "duration_max": null,
+    "duration": 8,
+    "project_duration": 8,
+    "google_place_id": "ChIJ5YQQf1GHhYARPKG7WLIaOko",
+    "opportunity_cost": {
+        "programme_fee": 10,
+        "project_fee": 4001,
+        "total": 4011,
+        "currency": "AMD"
+    },
+    "video_url": null,
+    "transparent_fee_details": {
+        "sponsored_by": null,
+        "covers_pickup": null,
+        "covers_accomodation": null,
+        "covers_leadership_spaces": null,
+        "covers_administrative_costs": null
+    },
+    "is_ge": false,
+    "programmes": {
+        "id": 1,
+        "short_name": "GV"
+    },
+    "sub_product": null,
+    "is_favourited": false,
+    "favourites": 0,
+    "remark": null,
+    "applied_to": true,
+    "applied_to_with": 5271,
+    "earliest_start_date": "2019-05-31T00:00:00Z",
+    "latest_end_date": "2019-08-01T00:00:00Z",
+    "applications_close_date": "2019-04-13T00:00:00Z",
+    "applications_count": 1,
+    "opened_by": null,
+    "latest_reviews": [],
+    "office_footfall_for_exchange": 0,
+    "host_lc": {
+        "id": 630,
+        "name": "Chennai",
+        "full_name": "AIESEC in Chennai",
+        "email": null,
+        "tag": "LC",
+        "parent_id": 1585,
+        "signup_link": null,
+        "country": "India",
+        "url": "https://gis.aiesec.org/v2/committees/630",
+        "profile_photo_url": "https://cdn-expa.aiesec.org/gis-img/missing_profile_c.svg",
+        "cover_photo_url": "https://cdn-expa.aiesec.org/gis-img/missing_office_cover.png"
+    },
+    "home_lc": {
+        "id": 630,
+        "name": "Chennai",
+        "full_name": "AIESEC in Chennai",
+        "email": null,
+        "tag": "LC",
+        "parent_id": 1585,
+        "signup_link": null,
+        "country": "India",
+        "url": "https://gis.aiesec.org/v2/committees/630",
+        "profile_photo_url": "https://cdn-expa.aiesec.org/gis-img/missing_profile_c.svg",
+        "cover_photo_url": "https://cdn-expa.aiesec.org/gis-img/missing_office_cover.png"
+    },
+    "managers": [],
+    "branch": {
+        "id": 3220,
+        "name": "Chennai",
+        "scope": "global",
+        "status": "approved",
+        "organisation": {
+            "id": 1754,
+            "name": "Laurin",
+            "meta": {
+                "video_url_id": "",
+                "employee_count": "3",
+                "opportunity_count": "1"
+            },
+            "url": "https://gis.aiesec.org/v2/organisations/1754",
+            "website": null,
+            "summary": "It's pretty great",
+            "is_gep": false,
+            "registration_no": null,
+            "experience_count": null,
+            "year_of_creation": 2012,
+            "contact_info": {
+                "website": null,
+                "email": null,
+                "phone": "12345",
+                "facebook": "",
+                "twitter": "",
+                "instagram": "",
+                "linkedin": "",
+                "country_code": "213"
+            },
+            "profile_photo_urls": {
+                "original": "https://cdn-expa.aiesec.org/gis-img/missing_profile_l.svg",
+                "medium": "https://cdn-expa.aiesec.org/gis-img/missing_profile_l.svg",
+                "thumb": "https://cdn-expa.aiesec.org/gis-img/missing_profile_l.svg"
+            },
+            "cover_photo_urls": "https://cdn-expa.aiesec.org/gis-img/missing_company_cover.png"
+        },
+        "address_info": {
+            "address_1": "Somewhere",
+            "address_2": "",
+            "postcode": "",
+            "city": "Chennai",
+            "country": null,
+            "city_name": null,
+            "country_name": null
+        },
+        "billing_address": null,
+        "url": "https://gis.aiesec.org/v2/organisations//branches/3220",
+        "contact_info": null
+    },
+    "team": null,
+    "project": null,
+    "tn_manager_info": null,
+    "openings": 1,
+    "available_openings": 1,
+    "nationalities": [
+        {
+            "option": "preferred",
+            "level": null,
+            "id": 344,
+            "name": "Andorra",
+            "matching_with_opportunity": null
+        }
+    ],
+    "skills": [
+        {
+            "option": "preferred",
+            "level": 0,
+            "id": 1148,
+            "name": "Adobe After Effects",
+            "matching_with_opportunity": null
+        }
+    ],
+    "backgrounds": [
+        {
+            "option": "preferred",
+            "level": null,
+            "id": 1275,
+            "name": "Anthropology",
+            "matching_with_opportunity": null
+        }
+    ],
+    "languages": [
+        {
+            "option": "preferred",
+            "level": null,
+            "id": 13,
+            "name": "Chinese, Cantonese",
+            "matching_with_opportunity": null
+        }
+    ],
+    "measure_of_impacts": [
+        {
+            "option": "4",
+            "level": null,
+            "id": 2201,
+            "name": "# of people made aware of corruption and bribery and their prevention in their local context",
+            "matching_with_opportunity": null
+        }
+    ],
+    "issues": [],
+    "study_levels": [],
+    "preferred_locations_info": [],
+    "logistics_info": {
+        "food_covered": "Not covered",
+        "food_weekends": "false",
+        "accommodation_covered": "false",
+        "accommodation_provided": "Provided"
+    },
+    "tm_details": {},
+    "legal_info": {
+        "visa_link": "https://google.de",
+        "visa_type": "This is a test opportunity. Don't apply.",
+        "visa_duration": "This is a test opportunity. Don't apply.",
+        "health_insurance_info": "This is a test opportunity. Don't apply."
+    },
+    "role_info": {
+        "city": "Madras",
+        "required_preparation": null,
+        "learning_points": null,
+        "learning_points_list": [
+            "This is a test opportunity. Don't apply .",
+            "This is a test opportunity. Don't apply.",
+            "This is a test opportunity. Don't apply.",
+            "This is a test opportunity. Don't apply.",
+            "This is a test opportunity. Don't apply."
+        ],
+        "additional_instructions": null,
+        "selection_process": "FaceToFace"
+    },
+    "department": null,
+    "specifics_info": {
+        "salary": "2123",
+        "salary_currency": null,
+        "ask_gip_question": null,
+        "salary_periodicity": null,
+        "ef_test_required": "false",
+        "computer": false,
+        "saturday_work": false,
+        "expected_work_schedule": {
+            "from": "1",
+            "to": "14"
+        },
+        "saturday_work_schedule": null
+    },
+    "sdg_info": {
+        "id": 2040,
+        "partners": null,
+        "coordination": null,
+        "implementation": null,
+        "potential_reach": null,
+        "impact_date": null,
+        "already_reached": null,
+        "location": null,
+        "deliverables": [],
+        "sdg_target": {
+            "id": 139,
+            "target": "Significantly reduce all forms of violence and related death rates everywhere",
+            "parent_id": 1116,
+            "description": "Significantly reduce all forms of violence and related death rates everywhere",
+            "goal_id": 1116,
+            "goal_index": 16,
+            "target_index": 1
+        },
+        "created_at": "2018-04-10T12:47:54Z",
+        "updated_at": "2018-05-14T13:25:14Z"
+    },
+    "reviews": {
+        "score": 0,
+        "count": 0
+    },
+    "comments": [],
+    "scorecard": null,
+    "profile_photo_urls": {
+        "original": "https://cdn-expa.aiesec.org/gis-img/missing_profile_t.svg",
+        "medium": "https://cdn-expa.aiesec.org/gis-img/missing_profile_t.svg",
+        "thumb": "https://cdn-expa.aiesec.org/gis-img/missing_profile_t.svg"
+    },
+    "cover_photo_urls": "https://cdn-expa.aiesec.org/gis-img/gv_default.png",
+    "permissions": {
+        "can_update": true,
+        "can_edit_managers": true,
+        "can_open": true,
+        "can_be_applied_to": true,
+        "view_applications": true,
+        "can_mark_gep": true
+    },
+    "created_at": "2018-04-10T12:47:54Z",
+    "updated_at": "2019-04-04T07:50:31Z"
+}

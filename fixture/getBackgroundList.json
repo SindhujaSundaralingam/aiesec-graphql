@@ -1,0 +1,367 @@
+[
+    {
+      "id": 224,
+      "name": "Accounting",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 225,
+      "name": "Aerospace engineering",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 226,
+      "name": "Agriculture",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1275,
+      "name": "Anthropology",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 227,
+      "name": "Archeology",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 228,
+      "name": "Architecture",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 229,
+      "name": "Arts",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1276,
+      "name": "Assurance",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1277,
+      "name": "Audit",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 230,
+      "name": "Automotive engineering",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 231,
+      "name": "Banking",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1278,
+      "name": "Bioengineering",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 232,
+      "name": "Biology",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1279,
+      "name": "Biomedical Science",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 233,
+      "name": "Business administration",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 234,
+      "name": "Chemical engineering",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 235,
+      "name": "Chemistry",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 236,
+      "name": "Civil engineering",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 237,
+      "name": "Communication & journalism",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 238,
+      "name": "Computer engineering",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 239,
+      "name": "Computer sciences",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1280,
+      "name": "Design",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1281,
+      "name": "Earth Sciences",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1282,
+      "name": "Ecology",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 240,
+      "name": "Economics",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 241,
+      "name": "Education",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 242,
+      "name": "Electrical engineering",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 243,
+      "name": "Electronics engineering",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1283,
+      "name": "Entrepreneurship",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 244,
+      "name": "Environmental engineering",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 245,
+      "name": "Finance",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 246,
+      "name": "Geography",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 247,
+      "name": "Graphic design",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1284,
+      "name": "Health Science",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1285,
+      "name": "History",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1286,
+      "name": "Human Resources",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1287,
+      "name": "Industrial Design",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 248,
+      "name": "Industrial engineering",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 249,
+      "name": "International relations",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1288,
+      "name": "International Trade",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1289,
+      "name": "Languages",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 250,
+      "name": "Law",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 251,
+      "name": "Linguistics",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 252,
+      "name": "Literature",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1290,
+      "name": "Logistics",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 253,
+      "name": "Marketing",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 254,
+      "name": "Material engineering",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 255,
+      "name": "Mathematics",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 256,
+      "name": "Mechanical engineering",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1291,
+      "name": "Media Arts",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 257,
+      "name": "Medicine",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 258,
+      "name": "Military sciences",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1292,
+      "name": "Music",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 259,
+      "name": "Nanotechnology",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1293,
+      "name": "Nursing",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 271,
+      "name": "Other",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1294,
+      "name": "Petroleum Engineering",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 260,
+      "name": "Philosophy",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 261,
+      "name": "Physics",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 262,
+      "name": "Political science",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 263,
+      "name": "Psychology",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 264,
+      "name": "Public administration",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 265,
+      "name": "Public relations",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 266,
+      "name": "Religion",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1295,
+      "name": "Social Work",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 267,
+      "name": "Sociology",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 268,
+      "name": "Software development and programming",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1296,
+      "name": "Sports",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1297,
+      "name": "Statistics",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1298,
+      "name": "Systems and Computing Engineering",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 269,
+      "name": "Telecommunication Engineering",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 1299,
+      "name": "Theatre",
+      "matching_with_opportunity": null
+    },
+    {
+      "id": 270,
+      "name": "Tourism & hotel management",
+      "matching_with_opportunity": null
+    }
+  ]
