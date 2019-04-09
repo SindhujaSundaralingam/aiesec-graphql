@@ -10,58 +10,113 @@ const { gql } = require('apollo-server');
     }
 
     type OpportunityDetails {
-        id: String
+        id: Int
         name: String
+        level: Int
+        option: String
     }
 
     type HostDetails {
         full_name: String
     }
 
-    type LogisticsDetails {
+    type LabelValue {
+        label: String
+        value: String
+    }
+
+    type PrerequisitiesList {
+        label: String
+        value: [OpportunityDetails]
+    }
+
+    type logisticsListDetails { 
         food_covered: String
         food_weekends: String
         accommodation_covered: String
         accommodation_provided: String
     }
 
-    type LegalDetails {
-        visa_link: String
-        visa_type: String
-        visa_duration: String
-        health_insurance_info: String
-    }
-
-    type SalaryDetails {
-        salary: String
-    }
-
     type Opportunity {
         id: Int
         title: String
-        location: String
         description: String
-        duration: Int
-        earliest_start_date: String
-        latest_end_date: String
-        applications_close_date: String
-        applications_count: Int
-        nationalities: [OpportunityDetails]
+        location: String
+        earliestStartDate: String
+        latestEndDate: String
+        applicationCloseDate: String
+        selectionProcess: String
+        volunteerDetails: [LabelValue]
+        prerequisitesList: [PrerequisitiesList]
+        visalogisticsDetails: [LabelValue]
         skills: [OpportunityDetails]
         backgrounds: [OpportunityDetails]
-        languages: [OpportunityDetails]
-        measure_of_impacts: [OpportunityDetails]
         host_lc: HostDetails
-        logistics_info: LogisticsDetails
-        legal_info: LegalDetails
-        cover_photo_urls: String
-        specifics_info: SalaryDetails
+        logisticDetails: [LabelValue]
+        legalDetails: [LabelValue]
+        coverPhoto: String
+        salary: String
+    }
+
+    type List {
+        id: Int
+        name: String
     }
   
     # The "Query" type is the root of all GraphQL queries.
     # (A "Mutation" type will be covered later on.)
     type Query {
         getOpportunityDetails: Opportunity
+        getSkillList: [List]
+        getBackgroundList: [List]
+    }
+    input RoleInfoDetails {
+        city: String
+        selection_process: String
+    }
+    
+    input SpecificsInfoDetails {
+        salary: String
+    }
+
+    input BackgroundList {
+        option: String
+        level: Int
+        id: Int
+        name: String
+        key: Int
+    }
+
+    input Skillist {
+        option: String
+        level: Int
+        id: Int
+        name: String
+        key: Int
+    }
+
+    input ListDetails {
+        id: Int
+        name: String
+    }
+
+    input UpdateOpportunityRequest {
+        title: String
+        description: String
+        earliestStartDate: String
+        latestEndDate: String
+        selectionProcess: String
+        salary: String
+        city: String
+        backgroundList: [ListDetails]
+        skillList: [ListDetails]
+    }
+
+    type updateResponse {
+        id: Int
+    }
+    type Mutation {
+        updateOpportunity(input: UpdateOpportunityRequest!): updateResponse
     }
   `;
   
