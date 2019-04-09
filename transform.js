@@ -85,7 +85,7 @@ function transformLogisticsDetails (response) {
 }
 
 function transformLegalDetails (response) {
-    const { visa_link, visa_type, visa_duration} = response
+    const { visa_link, visa_type, visa_duration, health_insurance_info } = response.legal_info
     const transformedList = [         {
             label: "VISA TYPE",
             value: visa_type
@@ -97,6 +97,10 @@ function transformLegalDetails (response) {
         {
             label: "VISA LINK",
             value: visa_link
+        },
+        {
+            label: 'Health Insurance',
+            value: health_insurance_info
         }
     ]
 
@@ -115,6 +119,22 @@ function convertDateFormat (date) {
     return date
 }
 
+function getWorkingHoursDetail ( response ) {
+    const {saturday_work, expected_work_schedule} = response.specifics_info
+    const workingTimings = expected_work_schedule.from + 'AM to '+ expected_work_schedule.to + 'PM'
+
+    return workingHours = [
+        {
+            label: 'Working Hours',
+            value: workingTimings
+        },
+        {
+            label: 'Working Weekends',
+            value: saturday_work ? workingTimings : 'Not on weekends'
+        }
+    ]
+}
+
 function transformOpportunityDetails (response) {
     const transformedResponse = {
         title: (response && response.title) || '',
@@ -128,13 +148,16 @@ function transformOpportunityDetails (response) {
         prerequisitesList: transformPrerequisitiesList(response),
         visalogisticsDetails: transformVisaLogisticsDetaisl(response),
         selectionProcess: (response && response.role_info && response.role_info.selection_process) || '',
+        city: (response && response.role_info && response.role_info.city) || '',
+        mainActivities: (response && response.role_info && response.role_info.learning_points_list) || [],
         backgrounds: (response && response.backgrounds) || '',
         skills: (response && response.skills) || '',
         host_lc: (response && response.host_lc) || '',
         logisticDetails: transformLogisticsDetails(response),
         legalDetails: transformLegalDetails(response),
         coverPhoto: (response && response.cover_photo_urls) || '',
-        salary: ( response && response.specifics_info && response.specifics_info.salary) || ''
+        salary: ( response && response.specifics_info && response.specifics_info.salary) || '',
+        workingHours: getWorkingHoursDetail(response)
     }
     return transformedResponse
 }
@@ -205,14 +228,14 @@ function transformRequest (input) {
         opportunity: {
             title,
             description,
-            location: city,
             earliest_start_date: convertToRequestDateFormat(earliestStartDate),
             latest_end_date: convertToRequestDateFormat(latestEndDate),
             specifics_info: {
                 salary
             },
             role_info: {
-                selection_process: selectionProcess
+                selection_process: selectionProcess,
+                city
             },
             skills: skillList.map(transformListRequest),
             backgrounds: backgroundList.map(transformListRequest)

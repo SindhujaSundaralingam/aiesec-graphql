@@ -46,6 +46,9 @@ const { gql } = require('apollo-server');
         latestEndDate: String
         applicationCloseDate: String
         selectionProcess: String
+        city: String
+        workingHours: [LabelValue]
+        mainActivities: [String]
         volunteerDetails: [LabelValue]
         prerequisitesList: [PrerequisitiesList]
         visalogisticsDetails: [LabelValue]
