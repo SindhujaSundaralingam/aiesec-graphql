@@ -173,13 +173,20 @@ function transformList (response) {
 }
 
 function transformListRequest (list) {
-    const { id, name } = list
+    const { id } = list
     return {
-        name,
         id,
-        option: "Preferred",
+        option: "preferred",
         level: 0
     }
+}
+
+function convertToRequestDateFormat (dateString) {
+    const date = new Date(dateString),
+        mnth = ("0" + (date.getMonth()+1)).slice(-2),
+        day  = ("0" + date.getDate()).slice(-2);
+    const formatedDate = [ date.getFullYear(), mnth, day ].join("-");
+    return formatedDate+'T00:00:00Z'
 }
 
 function transformRequest (input) {
@@ -199,18 +206,19 @@ function transformRequest (input) {
             title,
             description,
             location: city,
-            earliest_start_date: earliestStartDate,
-            latest_end_date: latestEndDate,
+            earliest_start_date: convertToRequestDateFormat(earliestStartDate),
+            latest_end_date: convertToRequestDateFormat(latestEndDate),
             specifics_info: {
                 salary
             },
             role_info: {
                 selection_process: selectionProcess
             },
-            backgrounds: backgroundList.map(transformRequest),
-            skills: skillList.map(transformRequest)
+            skills: skillList.map(transformListRequest),
+            backgrounds: backgroundList.map(transformListRequest)
         }
     }
+    
     return transformedRequest
 }
 

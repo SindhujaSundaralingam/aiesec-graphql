@@ -19,7 +19,6 @@ class OpportunityAPI extends RESTDataSource {
     return response
   }
   async updateMutation(body) {
-    console.log('MyRequest Body', body)
     const response = await this.patch('opportunities/6125?' + this.accessToken, body);
     return response
   }
