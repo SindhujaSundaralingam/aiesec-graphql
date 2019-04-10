@@ -9,8 +9,10 @@ const server = new ApolloServer({
   dataSources: () => ({
     opportunityAPI: new OpportunityAPI(),
   }),
+  playground: true,
+  introspection: true,
  });
 
 server.listen({ port: process.env.PORT || 4000 }).then(({ url }) => {
-  console.log(`🚀  Server ready at ${url}`);
+  console.log(`?  Server ready at ${url}`);
 });
