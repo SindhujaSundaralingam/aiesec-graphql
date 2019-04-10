@@ -37,6 +37,15 @@ const { gql } = require('apollo-server');
         accommodation_provided: String
     }
 
+    type VolunteerDetails {
+        language: LabelValue
+        earliestStartDate: LabelValue
+        latestEndDate: LabelValue
+        duration: LabelValue
+        salary: LabelValue
+        positions: LabelValue
+    }
+
     type Opportunity {
         id: Int
         title: String
@@ -49,7 +58,7 @@ const { gql } = require('apollo-server');
         city: String
         workingHours: [LabelValue]
         mainActivities: [String]
-        volunteerDetails: [LabelValue]
+        volunteerDetails: VolunteerDetails
         prerequisitesList: [PrerequisitiesList]
         visalogisticsDetails: [LabelValue]
         skills: [OpportunityDetails]

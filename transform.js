@@ -7,32 +7,32 @@ function transformVolunteeerDetails (response) {
         applications_count,
         languages
     } = response
-    const transformedResponse = [
-        {
+    const transformedResponse ={
+        language: {
             label: 'LANGUAGE',
             value: languages[0].name
         },
-        {
+        earliestStartDate: {
             label: 'EARLIEST START DATE',
             value: convertDateFormat(earliest_start_date)
         },
-        {
+        latestEndDate: {
             label: 'LATEST END DATE',
             value: convertDateFormat(latest_end_date)
         },
-        {
+        duration: {
             label: 'DURATION',
             value: duration + ' Weeks'
         },
-        {
-            label: "Salary",
+        salary: {
+            label: "SALARY",
             value: specifics_info.salary
         },
-        {
+        positions: {
             label: 'POSITIONS',
             value: applications_count
         }
-    ]
+    } 
 
     return transformedResponse
 }
